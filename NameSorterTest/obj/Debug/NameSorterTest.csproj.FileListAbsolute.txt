@@ -17,3 +17,16 @@ C:\Users\kalvinf\source\repos\NameSorterTest\obj\Debug\NameSorterTest.pdb
 C:\Users\kalvinf\source\repos\NameSorterTest\bin\Debug\NameSorter.exe
 C:\Users\kalvinf\source\repos\NameSorterTest\bin\Debug\NameSorter.pdb
 C:\Users\kalvinf\source\repos\NameSorterTest\bin\Debug\NameSorter.exe.config
+C:\Github\name-sorter\NameSorterTest\bin\Debug\NameSorterTest.dll
+C:\Github\name-sorter\NameSorterTest\bin\Debug\NameSorterTest.pdb
+C:\Github\name-sorter\NameSorterTest\bin\Debug\NameSorter.exe
+C:\Github\name-sorter\NameSorterTest\bin\Debug\NameSorter.pdb
+C:\Github\name-sorter\NameSorterTest\bin\Debug\NameSorter.exe.config
+C:\Github\name-sorter\NameSorterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Github\name-sorter\NameSorterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Github\name-sorter\NameSorterTest\bin\Debug\Newtonsoft.Json.xml
+C:\Github\name-sorter\NameSorterTest\obj\Debug\NameSorterTest.csprojAssemblyReference.cache
+C:\Github\name-sorter\NameSorterTest\obj\Debug\NameSorterTest.csproj.CoreCompileInputs.cache
+C:\Github\name-sorter\NameSorterTest\obj\Debug\NameSorterTest.csproj.CopyComplete
+C:\Github\name-sorter\NameSorterTest\obj\Debug\NameSorterTest.dll
+C:\Github\name-sorter\NameSorterTest\obj\Debug\NameSorterTest.pdb
