@@ -16,7 +16,7 @@
 
 <h1 align="center">Name Sorter</h1>
 <div align="center">
-Simple and powerful tool to sort a set of names by last name, then by any name the person may have.
+Simple and powerful console application to sort a set of names by last name, then by any name the person may have.
 </div>
 
 ### Usage :
