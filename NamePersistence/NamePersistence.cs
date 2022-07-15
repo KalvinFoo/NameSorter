@@ -7,31 +7,28 @@ using System.Threading.Tasks;
 
 namespace NameSorter
 {
-    public class NamePersistence
+    public class NamePersistence : INamePersistence
     {
-        public string FilePath { get; set; }
-        public string[] Names { get; set; }
-
         /// <summary>
         /// Write or overwrite the result into the targeted text file
         /// </summary>
-        public void SaveToFile()
+        public void SaveToFile(string filePath, string[] names)
         {
-            File.WriteAllLines(FilePath, Names);
+            File.WriteAllLines(filePath, names);
         }
 
         /// <summary>
         /// Read source text file
         /// </summary>
         /// <returns>Names as string array</returns>
-        public string[] ReadFile()
+        public string[] ReadFile(string filePath)
         {
-            if (!File.Exists(FilePath))
+            if (!File.Exists(filePath))
             {
                 throw new Exception("'File is not found. Please check again...");
             }
 
-            string[] names = File.ReadLines(FilePath).ToArray();
+            string[] names = File.ReadLines(filePath).ToArray();
 
             return names;
         }

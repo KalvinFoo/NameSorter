@@ -46,9 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NamePersistence.cs" />
-    <Compile Include="NamePrinter.cs" />
-    <Compile Include="NameSorter.cs" />
+    <Compile Include="NamePersistence\INamePersistence.cs" />
+    <Compile Include="NamePersistence\NamePersistence.cs" />
+    <Compile Include="NamePrinter\INamePrinter.cs" />
+    <Compile Include="NamePrinter\NamePrinter.cs" />
+    <Compile Include="NameSorter\INameSorter.cs" />
+    <Compile Include="NameSorter\NameSorter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

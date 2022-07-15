@@ -8,7 +8,6 @@ C:\Users\kalvinf\source\repos\NameSorter\obj\Debug\NameSorter.csprojAssemblyRefe
 C:\Github\name-sorter\bin\Debug\NameSorter.pdb
 C:\Github\name-sorter\obj\Debug\NameSorter.csproj.CoreCompileInputs.cache
 C:\Github\name-sorter\obj\Debug\NameSorter.pdb
-C:\Github\name-sorter\obj\Debug\NameSorter.csprojAssemblyReference.cache
 C:\Github\name-sorter\bin\Debug\NameSorter.exe.config
 C:\Github\name-sorter\bin\Debug\NameSorter.exe
 C:\Github\name-sorter\obj\Debug\NameSorter.exe

@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace NameSorter
 {
-    public class NamePrinter
+    public class NamePrinter : INamePrinter
     {
-        public string[] Names { get; set; }
-
         /// <summary>
         /// Print the results of the sorted names to the screen
         /// </summary>
-        public void Print()
+        public void Print(string[] names)
         {
-            Array.ForEach(Names, Console.WriteLine);
+            Array.ForEach(names, Console.WriteLine);
             Console.ReadLine();
         }
 

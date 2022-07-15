@@ -11,16 +11,27 @@ namespace NameSorterTest
     public class NameSorterTests
     {
         static readonly string _inputFileName = "1000-unsorted-names-list.txt";
+        static readonly string _outputFileName = "1000-sorted-names-list.txt";
+        static readonly string _fileDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
         [TestMethod]
         public void LastNameShouldBeSortedAlphabetically()
         {
-            var nameSorter = new NameSorter.NameSorter
-            {
-                InputFileName = _inputFileName
-            };
-            var result = nameSorter.SortByLastName();
+            string inputFilePath = Path.Combine(_fileDirectory, _inputFileName);
+            string outputFilePath = Path.Combine(_fileDirectory, _outputFileName);
 
+            //Read file containing the names
+            var namePersistence = new NamePersistence();
+            var names = namePersistence.ReadFile(inputFilePath);
+
+            //Sort the names
+            var nameSorter = new NameSorter.NameSorter();
+            var result = nameSorter.SortByLastName(names);
+
+            //Write the sorted names to a text file
+            namePersistence.SaveToFile(outputFilePath, result);
+
+            //Get expected result
             var expectedResult = ExpectedResult();
 
             CollectionAssert.AreEqual(expectedResult, result);
