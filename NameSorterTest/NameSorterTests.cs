@@ -10,13 +10,17 @@ namespace NameSorterTest
     [TestClass]
     public class NameSorterTests
     {
-        static readonly string inputFileName = "1000-unsorted-names-list.txt";
+        static readonly string _inputFileName = "1000-unsorted-names-list.txt";
 
         [TestMethod]
         public void LastNameShouldBeSortedAlphabetically()
         {
-            var nameSorter = new NameSorters();
-            var result = nameSorter.ReadAndSortByLastName(inputFileName);
+            var nameSorter = new NameSorter.NameSorter
+            {
+                InputFileName = _inputFileName
+            };
+            var result = nameSorter.SortByLastName();
+
             var expectedResult = ExpectedResult();
 
             CollectionAssert.AreEqual(expectedResult, result);
